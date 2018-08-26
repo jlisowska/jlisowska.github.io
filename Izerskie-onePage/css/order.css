@@ -1,0 +1,67 @@
+.contact-data, .contact-form {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(35,157,96, 1);
+    border-radius: 0.4rem;
+}
+
+.contact-data:hover img {
+    transform: rotate(360deg);
+}
+.contact-data p {
+    font-size: 1.4rem;
+}
+.contact-data img {
+    transform: rotate(0deg);
+    transition: transform 0.2s ease-out;
+}
+
+.contact-data {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+input:not([type='submit']), label {
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.1rem;
+    border-radius: 0.4rem;
+    border: 1px solid transparent;
+}
+
+select {
+    width: 15%;
+    display: inline-block;
+    padding: 0.5rem 0.7rem;
+    margin: 0 2rem 0.5rem 0;
+    border: 1px solid transparent;
+    border-radius: 0.4rem;
+}
+
+input[name='quantity']  {
+    display: inline-block;
+    padding: 0.5rem 0.7rem;
+    width: 15%;
+}
+
+textarea {
+    display: block;
+    width: 95%;
+    margin: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.4rem;
+}
+
+
+input[type='submit'] {
+    padding: 0.7rem 1.6rem;
+    border-radius: 0.4rem;
+    border: 1px solid transparent;
+    background-color:rgb(69, 200, 95);
+    color: #fff;
+    font-size: 1.2rem;
+    display: block;
+}

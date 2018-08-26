@@ -1,0 +1,32 @@
+#main-header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../img/egg-1510449_1920.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(rgba(35,157,96, .6),rgba(35,157,96, .6));
+    border-bottom: 1rem solid rgba(178,150,0, .6);
+    transform: skewY(-10deg);
+    transform-origin: top left;
+}
+
+h1 {
+    position: relative;
+    color: #fff;
+    font-family: 'Corben', cursive;
+    font-size: 4rem;
+    text-align: center;
+    padding: 5rem 0.5rem;
+}
+
+

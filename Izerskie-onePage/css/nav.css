@@ -1,0 +1,40 @@
+#main-nav {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+#nav-list {
+    float: right;
+    margin: 0.5rem 1.5rem 0.5rem 0;
+}
+
+.nav-item {
+    font-size: 1.4rem;
+    display: inline-block;
+    padding: 0.7rem 1rem;
+}
+.nav-item:hover {
+    background-color: rgba(178,150,0, 0.7);
+    border-radius: 0.4rem;
+}
+.menu-icon {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-icon:hover  {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 2rem;
+}
+
+.nav-col-scroll {
+    background-color: rgba(35,157,96, 0.8);
+}
+

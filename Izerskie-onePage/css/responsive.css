@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+    .nav-menu {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: inline-block;
+    }
+    
+    .nav-item {
+        display: block;
+    }
+    
+    .show {
+      display: block;
+    }
+    
+
+    .hen-hidden {
+        display: none;
+    }
+    
+    .contact-data {
+        margin-bottom: 2rem;
+    }
+    
+    .nav-bg-col {
+        background-color:  rgba(35,157,96, 0.9);
+    }
+}

@@ -1,0 +1,35 @@
+/*--- general styles start ---*/
+root {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 7rem 0;
+    background-color: rgba(35,157,96, .8);
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+/*--- general styles stop ---*/

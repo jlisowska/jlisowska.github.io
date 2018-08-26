@@ -1,0 +1,24 @@
+footer {
+    background-color: rgba(30,140,99, 1);
+    padding: 1rem;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+.copy-right, .icon-credit {
+    display: inline-block;
+    width: 49%;
+}
+
+.icon-credit {
+    text-align: right;
+}
+
+.icon-credit a, .icon-credit a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+

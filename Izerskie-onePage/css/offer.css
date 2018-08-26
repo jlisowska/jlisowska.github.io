@@ -1,0 +1,32 @@
+#offer {
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../img/animal-1867521_1920.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+.offer-content1 p {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1rem 4rem;
+}
+
+.offer-content2 {
+    position: relative;
+    text-align: center;
+    padding: 2rem 0;
+    background: linear-gradient(rgba(35,157,96, .6),rgba(35,157,96, .6));
+    margin-bottom: 1rem;
+}
+
+.offer-content2::after {
+    content: "";
+    height: 100%;
+    border-right: 0.2rem solid #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.offer-content2 p {
+    font-size: 1.2rem;
+}

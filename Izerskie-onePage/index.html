@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jajka izerskie</title>
+    
+    <!--  google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700i|Merienda:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Corben&amp;subset=latin-ext" rel="stylesheet">
+    
+    <!--  fontawesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    
+    <!--  Bootstrap css  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" >
+    
+    <!--  main css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/offer.css">
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!--  main nav menu start-->
+    <nav id="main-nav">
+     
+        <a href="#" class="menu-icon"><i class="fa fa-bars"></i></a>
+         
+        <ul id="nav-list" class="nav-menu menu">
+           <li class="nav-item"><a href="#about">o nas</a></li>
+           <li class="nav-item"><a href="#offer">oferta</a></li>
+           <li class="nav-item"><a href="#order">zamów</a></li>
+           <li class="nav-item"><a href="#contact">kontakt</a></li>
+        </ul>
+    </nav>
+    <!--  main nav menu stop-->
+    
+    <!--  section header start -->
+    <header id="main-header">
+        <div class="header-bg"></div>
+        <h1>Jaja izerskie <br>ze Starej Kamienicy</h1>
+    </header>
+    <!--  section header stop -->
+    
+    <!--  section about start -->
+    <section id="about">
+        <div class="container-fluid">
+           <div class="row">
+               <div class="col-lg-3">
+                   <div class="hen-icon"><img src="img/chicken.png" alt="chicken"></div>
+               </div>
+               <div class="col-lg-6" >
+                   <div class="about-content">
+                       <h2>Kim jesteśmy?</h2>
+                       <p>Jestemy firmą z ponad 60-letnią tradycją. Prowadzimy swoją działalność na malowniczo położonych terenach nieopodal przepięknych Karkonoszy i Gór Izerskich. Takie okoliczności przyrody mają z pewnością bardzo dobry wpływ na nasze kury. Wiemy to, bo nasze jajka są smaczne, zdrowe i zawsze świeże o czym zdążyło się już przekonać wielu naszych klientów. Przekonaj się również Ty.</p>
+                   </div>
+               </div>
+                <div class="col-lg-3">
+                   <div class="hen-icon hen-hidden"><img src="img/chicken.png" alt="chicken"></div>
+               </div>
+           </div>
+       </div>
+     
+    </section>
+    <!--  section about stop -->
+    <!--  section offer start -->
+    <section id="offer">
+       <h2>Oferta</h2>
+        <div class="offer-content1">
+            <p>Oferujemy Państwu jaja konsumpcyjne pierwszego gatunku, z chowu ściółkowego, klasy A. Nasze jajka dostępne są w trzech rozmiarach: </p>
+        </div>
+        <div class="container">
+           <div class="row">
+                <div class="col-lg-4">
+                    <div class="offer-content2">
+                        <h3>S</h3>
+                        <p>53g &le; klasa wagowa &lt; 63g <br>1-2zł/szt.*</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer-content2">
+                        <h3>M</h3>
+                        <p>53g &le; klasa wagowa &lt; 63g <br>1-2zł/szt.*</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer-content2">
+                        <h3>L</h3>
+                        <p>53g &le; klasa wagowa &lt; 63g <br>1-2zł/szt.*</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+    </section>
+    <section id="order">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-6">
+                   <div class="contact-data">
+                        <h3>Zadzwoń:</h3>
+                        <p><img src="img/chicken.png" width="40px" height="40px" alt="chicken"> 123 456 789 <img src="img/chicken.png" width="40px" height="40px" alt="chicken"></p>
+                        <h3>Napisz:</h3>
+                        <p><img src="img/chicken.png" width="40px" height="40px" alt="chicken"> <a href="mailto:nasza-firma@gmail.com">nasza-firma@gmail.com</a><img src="img/chicken.png" width="40px" height="40px" alt="chicken"></p>
+                    </div>
+               </div>
+               <div class="col-lg-6">
+                   <div class="contact-form">
+                    <form action="">
+                       <h3>Zamów:</h3>
+                        <label>Imię i nazwisko: <input type="text" name="name" required></label>
+                        <label>Numer telefonu: <input type="tel" name="phone" required></label>
+                        <label>E-mail: <input type="email" name=mail required></label>
+                        <label for="size">Wybierz rozmiar i ilość jajek:</label>
+                        <select name="size" id="size">
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                        </select>
+                        <input type="text" name="quantity">
+                        <textarea name="message"></textarea>
+                        <input type="submit" value="Wyślij">
+                    </form>
+                </div>           
+               </div>
+           </div>
+       </div>
+    </section>
+    <!--  section offer start -->
+    <!--  footer start -->
+    <footer>
+       <div class="copy-right">
+           <p>Copyright &copy; Jolanta Lisowska</p>
+       </div>
+        <div class="icon-credit">
+            <p >
+                Icon made by Freepik from <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>
+            </p>
+        </div>
+    </footer>
+    <!--  footer stop -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>

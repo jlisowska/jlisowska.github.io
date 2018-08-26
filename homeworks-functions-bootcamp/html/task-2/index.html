@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2: html5 form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+       <h1>A Simple Form</h1>
+       <h2>Form fundamentals</h2>
+   </header>
+    <form action="https://formspree.io/jolanta.lisowska91@gmail.com" method="POST" autocomplete="on">
+        <fieldset name="customer-info">
+            <legend>Customer info: </legend>
+            <label>Name: <input type="text" name="username" placeholder="Enter your name" autofocus required></label>
+            <label>Telephone: <input type="text" name="phone" pattern="\d{1}[\-]\d{3}[\-]\d{3}[\-]\d{4}" 
+                                placeholder="Pattern: 1-234-567-8910" required></label>
+            <label>Email address: <input type="email" name="mail" placeholder="Enter your email address" multiple required></label>
+        </fieldset>
+        <fieldset name="books">
+            <legend>Books: </legend>
+            <input list="books-list" name="books-list">
+            <datalist id="books-list">
+                <option value="Book1">Book1</option>
+                <option value="Book2">Book2</option>
+                <option value="Book3">Book3</option>
+                <option value="Book4">Book4</option>
+                <option value="Book5">Book5</option>
+            </datalist> 
+            <label>Quantity (maximum 5): <input type="number" name="quantity" min="1" max="5"></label>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+</html>

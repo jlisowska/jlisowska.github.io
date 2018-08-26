@@ -1,0 +1,41 @@
+@media (min-width: 768px) and (max-width: 992px) {
+    main {
+        flex-direction: row;
+    }
+    
+    #aside-left {
+        order: 3;
+        width: 100%;
+    }
+    
+    #main-section {
+        order: 1;
+        width: 70%;
+    }
+    
+    #aside-right {
+        order: 2;
+        width: 30%;
+    }
+}
+
+@media (min-width: 993px) {
+    main {
+        flex-direction: row;
+    }
+
+    #aside-left {
+        order: 1;
+        width: 25%;
+    }
+
+    #main-section {
+        order: 2;
+        width: 50%;
+    }
+
+    #aside-right {
+        order: 3;
+        width: 25%;
+    }
+}

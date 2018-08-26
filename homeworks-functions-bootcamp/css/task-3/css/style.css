@@ -1,0 +1,74 @@
+body, #img-container #img-label h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#img-container,#img-container::before,#img-container::after,
+#img-container #img-label,  #img-container #img-label h1 {
+    position: absolute;
+}
+
+#img-container, #img-container #img-label h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img-container {
+    width: 650px; /*dimensions of lake image -  div by deafult hasn't dimensions such as image */
+    height: 350px;
+}
+
+#img-container::before, #img-container::after {
+    content: "";
+    left: -9px;
+    width: 101.5%; 
+    height: 0%;
+    border-right: 4px solid #000;
+    border-left: 4px solid #000;
+    transform: scaleX(0);
+}
+
+#img-container::before {
+    top: -9px;
+    border-top: 4px solid #000;
+}
+
+#img-container:hover::before, #img-container:hover::after {
+    height: 51.5%;
+    transform:  scaleX(1);
+    transition: transform 2s ease-out, 
+        height 2s ease-out 2s;
+}
+
+#img-container::after {
+    bottom: -9px;
+    border-bottom: 4px solid #000;
+}
+
+#img-container #img-label {
+    left: -9px;
+    top: 41.5%;
+    width: 102.8%;
+    height: 17%;
+    background-color: rgba(0,0,0,0.7);
+    transform:  scaleY(0);
+    color: white;
+    text-transform: uppercase;
+}
+
+#img-container:hover #img-label {
+    z-index: 100;
+    transform: scaleY(1);
+    transition: transform 4s ease-out;
+}
+
+#img-container #img-label h1 {
+    font-size: 0em;
+    font-weight: normal;
+}
+
+#img-container:hover #img-label h1 {
+    font-size: 3em;
+    transition: font-size 4s ease-out;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html: task1, my-form</title>
+</head>
+<body>
+    <form action="https://formspree.io/jolanta.lisowska91@gmail.com" method="POST">
+        <label>Imię:<br><input type="text" name ="fname" ></label><br><br>
+        <label>Nazwisko:<br><input type="text" name ="lname" ></label><br><br>
+        <label for="mail">Email:</label><br>
+        <input type="email" name ="email" id="mail"><br><br>
+        <label for="phone">Numer telefonu:</label><br>
+        <input type="text" name ="phone" id="phone"><br><br>
+        <label for="cities">Miasto:</label><br>
+        <select name="city" id="cities">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Kraków">Kraków</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select>
+        <p>Płeć:</p>
+        <input type="radio" name ="gender" id="female" value="female">
+        <label for="female">Kobieta</label><br>
+        <input type="radio" name ="gender" id="male" value="male">
+        <label for="male">Mężczyzna</label><br><br>
+        <label><input type="checkbox" name="agreement" required> Wyrażam zgodę...</label><br><br>
+        <label for="message">Wiadomość: </label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+</html>

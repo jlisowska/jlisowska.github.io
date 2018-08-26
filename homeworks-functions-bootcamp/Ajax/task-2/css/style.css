@@ -1,0 +1,52 @@
+/*--------- general styles start --------------*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/*--------- general styles stop --------------*/
+/*--------- main header start ---------------*/
+header h1 {
+    margin: 0;
+    padding: 1rem;
+}
+/*--------- main header stop --------------*/
+/*--------- main content section start --------------*/
+
+#main-content .p-content {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#main-content .p-content.p-rate {
+    font-weight: lighter;
+}
+
+#main-content .btn {
+    margin-left: 1rem;
+    background-color: #2da826;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 1px solid #2da826;
+    border-radius: 4px;
+    padding: 0.5rem 0.7rem;
+}
+
+.fa-arrow-up {
+    color: green;
+}
+
+.fa-arrow-down {
+    color: red;
+}
+
+.fa-minus {
+    color: darkblue;
+}
+/*--------- main content section stop --------------*/

@@ -1,0 +1,19 @@
+@media (max-width:992px) {
+    #product-gallery {
+        top: 0%;
+        transform: translateY(0%);
+    }
+    .products {
+        width: 45%;
+    }
+}
+
+@media (max-width:479px) {
+    .products {
+        width: 90%;
+    }
+}
+
+
+
+

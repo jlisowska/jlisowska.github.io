@@ -1,0 +1,42 @@
+/*---- GENERAL STYLES start ----*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: "Verdana", sans-serif;
+}
+/*---- GENERAL STYLES end ----*/
+
+/*---- MAIN HEADER start ----*/
+#main-header {
+    overflow: hidden;
+    height: 100vh;
+}
+
+#main-header #header-background {
+    height: 100vh;
+    width: 100%;
+    background: url(../img/man-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+#main-header #header-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#main-header #header-content h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 1em;
+}
+
+#main-header #header-content h1 span {
+    display: block;
+    font-size: 0.7em;
+    margin-bottom: 0.7em;
+}
+/*---- MAIN HEADER end ----*/

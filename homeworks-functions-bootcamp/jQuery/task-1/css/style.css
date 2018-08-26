@@ -1,0 +1,31 @@
+#animation-btn {
+    padding: 15px;
+    border: 2px solid darkred;
+    background-color: indianred;
+    border-radius: 4px;
+    font-weight: bold;
+    color: darkred;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+/*    outline: none;*/
+}
+
+#square {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: darkred;
+    text-align: center;
+}
+
+#square h2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #fff;
+    opacity: 0;
+}

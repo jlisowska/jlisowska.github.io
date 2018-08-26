@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX: task 2, bitcoins rate</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>Aktualny kurs Bitcoin do PLN</h1> 
+    </header>
+    
+    <section id="main-content">
+        <p class="p-content">Kupno</p>
+        <p id="buy" class="p-content p-rate"></p>
+        <p class="p-content">Sprzedaż</p>
+        <p id="sell" class="p-content p-rate"></p>
+       <button type="button" id="get-data-btn" class="btn">Pobierz kurs bitcoin</button>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

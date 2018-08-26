@@ -1,0 +1,29 @@
+'use strict';
+
+function quickSort(array) {
+        
+    if(array.length <= 1){
+        return array;
+    } else {
+        
+        let pivot = array.pop();
+        let sortedArray = [];
+        let leftPart = [];
+        let rightPart = [];
+                
+        for (let i = 0; i < array.length; i++){
+            if(array[i] <= pivot) {
+                leftPart.push(array[i]);
+            } else {
+                rightPart.push(array[i]);
+            }
+        }
+        return sortedArray.concat(quickSort(leftPart),pivot,quickSort(rightPart));
+    }
+}
+
+
+let myArray = [12, 67, 34, 23.01, 24, 2, 56, 8, 0x10, 23.02, 78, 34, 1e2, 45, 67, 98, 1];
+let mySortedArray = quickSort(myArray);
+console.log('Posortowana tablica: ' + mySortedArray);
+

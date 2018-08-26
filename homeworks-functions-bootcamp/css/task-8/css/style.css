@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    font-size: 72px;
+}
+
+#number-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#number-container::before{
+    content: '';
+    color: white;
+    animation: countdown 11s linear infinite;
+}
+
+@keyframes countdown {
+
+    1% {
+        content: '10';
+    }
+
+    10% {
+        content: '9';
+    }
+    
+    20% {
+        content: '8';
+    }
+    
+    30% {
+        content: '7';
+    }
+    
+    40% {
+        content: '6';
+    }
+    
+    50% {
+        content: '5';
+    }
+    
+    60% {
+        content: '4';
+    }
+    
+    70% {
+        content: '3';
+    }
+    
+    80% {
+        content: '2';
+    }
+    
+    90% {
+        content: '1';
+    }
+    
+    100% {
+        content: 'I love CSS :)';
+        color: #bc392b;
+    }
+}

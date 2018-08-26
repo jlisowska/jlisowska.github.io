@@ -1,0 +1,36 @@
+#container {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: green;
+}
+
+.square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.circle {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+#bottom-right, #top-left-circle {
+    right: 0;
+    bottom: 0;
+}
+
+#top-right, #bottom-left-circle {
+    right: 0;
+    top: 0;
+}
+
+#bottom-left,#top-right-circle {
+    bottom: 0;
+}
